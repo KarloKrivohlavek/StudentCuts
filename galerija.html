@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerija</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class='nav-bar'>
+                <li class='logo'><a href='index.html'><img src="Slike/student-cuts-logo.svg" /></a></li>
+                <input type='checkbox' id='check' />
+                <span class="menu">
+                    <li><a href="raspored.html">Raspored</a></li>
+                    <li><a href="fotografsko_natjecanje.html">Fotografsko natjecanje</a></li>
+                    <li><a href="hall_of_fame.html">Hall of fame</a></li>
+                    <li><a href="galerija.html">Galerija</a></li>
+                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                </span>
+                <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="tabContainer">
+        <div class="buttonKeeper">
+            <div class="buttonContainer">
+                <button onclick="showPanel(0,'#FFFFFF')">2023.</button>
+                <button onclick="showPanel(1,'#FFFFFF')">2022.</button>
+                <button onclick="showPanel(2,'#FFFFFF')">2021.</button>
+                <button onclick="showPanel(3,'#FFFFFF')">2020.</button>
+            </div>
+        </div>
+
+        <div class="tabPanel">
+            <div class="main_galerija">
+                <div class="parent_galerija">
+                    <div class="div1_galerija">
+                        <img src="Test\image1.jpg" alt="Image 1" class="popup-trigger">
+                    </div>
+                    <div class="div2_galerija">
+                        <img src="image2.jpg" alt="Image 2" class="popup-trigger">
+                    </div>
+                    <div class="div3_galerija">
+                        <img src="image3.jpg" alt="Image 3" class="popup-trigger">
+                    </div>
+                    <div class="div4_galerija">
+                        <img src="image4.jpg" alt="Image 4" class="popup-trigger">
+                    </div>
+                </div>
+
+                <div class="parent_galerija2">
+                    <div class="div1_galerija2"><img src="Test\image1.jpg" alt="Image 1" class="popup-trigger"> </div>
+                    <div class="div2_galerija2"><img src="Test\image1.jpg" alt="Image 1" class="popup-trigger"> </div>
+                    <div class="div3_galerija2"><img src="Test\image1.jpg" alt="Image 1" class="popup-trigger"> </div>
+                    <div class="div4_galerija2"><img src="Test\image1.jpg" alt="Image 1" class="popup-trigger"> </div>
+                </div>
+                <div class="parent_galerija">
+                    <div class="div1_galerija">
+                        <img src="Test\image1.jpg" alt="Image 1" class="popup-trigger">
+                    </div>
+                    <div class="div2_galerija">
+                        <img src="image2.jpg" alt="Image 2" class="popup-trigger">
+                    </div>
+                    <div class="div3_galerija">
+                        <img src="image3.jpg" alt="Image 3" class="popup-trigger">
+                    </div>
+                    <div class="div4_galerija">
+                        <img src="image4.jpg" alt="Image 4" class="popup-trigger">
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="tabPanel">
+            <div class="main_galerija">
+                <div class="parent_galerija">
+                    <div class="div1_galerija">
+                        <img src="Test\image1.jpg" alt="Image 1" class="popup-trigger">
+                    </div>
+                    <div class="div2_galerija">
+                        <img src="Slike\monroe.png" alt="Image 2" class="popup-trigger">
+                    </div>
+                    <div class="div3_galerija">
+                        <img src="Slike\monroe.png" alt="Image 3" class="popup-trigger">
+                    </div>
+                    <div class="div4_galerija">
+                        <img src="image4.jpg" alt="Image 4" class="popup-trigger">
+                    </div>
+                </div>
+
+                <div class="parent_galerija2">
+                    <div class="div1_galerija2"><img src="Test\image1.jpg" alt="Image 1" class="popup-trigger"> </div>
+                    <div class="div2_galerija2"><img src="Test\image1.jpg" alt="Image 1" class="popup-trigger"> </div>
+                    <div class="div3_galerija2"><img src="Test\image1.jpg" alt="Image 1" class="popup-trigger"> </div>
+                    <div class="div4_galerija2"><img src="Test\image1.jpg" alt="Image 1" class="popup-trigger"> </div>
+                </div>
+                <div class="parent_galerija">
+                    <div class="div1_galerija">
+                        <img src="Test\image1.jpg" alt="Image 1" class="popup-trigger">
+                    </div>
+                    <div class="div2_galerija">
+                        <img src="image2.jpg" alt="Image 2" class="popup-trigger">
+                    </div>
+                    <div class="div3_galerija">
+                        <img src="image3.jpg" alt="Image 3" class="popup-trigger">
+                    </div>
+                    <div class="div4_galerija">
+                        <img src="image4.jpg" alt="Image 4" class="popup-trigger">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="tabPanel">
+            <div class="main_galerija">
+                <div class="parent_galerija">
+                    <div class="div1_galerija">
+                        <img src="Test\image1.jpg" alt="Image 1" class="popup-trigger">
+                    </div>
+                    <div class="div2_galerija">
+                        <img src="image2.jpg" alt="Image 2" class="popup-trigger">
+                    </div>
+                    <div class="div3_galerija">
+                        <img src="image3.jpg" alt="Image 3" class="popup-trigger">
+                    </div>
+                    <div class="div4_galerija">
+                        <img src="image4.jpg" alt="Image 4" class="popup-trigger">
+                    </div>
+                </div>
+
+                <div class="parent_galerija2">
+                    <div class="div1_galerija2"><img src="Test\image1.jpg" alt="Image 1" class="popup-trigger"> </div>
+                    <div class="div2_galerija2"><img src="Test\image1.jpg" alt="Image 1" class="popup-trigger"> </div>
+                    <div class="div3_galerija2"><img src="Test\image1.jpg" alt="Image 1" class="popup-trigger"> </div>
+                    <div class="div4_galerija2"><img src="Test\image1.jpg" alt="Image 1" class="popup-trigger"> </div>
+                </div>
+                <div class="parent_galerija">
+                    <div class="div1_galerija">
+                        <img src="Test\image1.jpg" alt="Image 1" class="popup-trigger">
+                    </div>
+                    <div class="div2_galerija">
+                        <img src="image2.jpg" alt="Image 2" class="popup-trigger">
+                    </div>
+                    <div class="div3_galerija">
+                        <img src="image3.jpg" alt="Image 3" class="popup-trigger">
+                    </div>
+                    <div class="div4_galerija">
+                        <img src="image4.jpg" alt="Image 4" class="popup-trigger">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="tabPanel">
+            <div class="main_galerija">
+                <div class="parent_galerija">
+                    <div class="div1_galerija">
+                        <img src="Test\image1.jpg" alt="Image 1" class="popup-trigger">
+                    </div>
+                    <div class="div2_galerija">
+                        <img src="image2.jpg" alt="Image 2" class="popup-trigger">
+                    </div>
+                    <div class="div3_galerija">
+                        <img src="image3.jpg" alt="Image 3" class="popup-trigger">
+                    </div>
+                    <div class="div4_galerija">
+                        <img src="image4.jpg" alt="Image 4" class="popup-trigger">
+                    </div>
+                </div>
+
+                <div class="parent_galerija2">
+                    <div class="div1_galerija2"><img src="Test\image1.jpg" alt="Image 1" class="popup-trigger"> </div>
+                    <div class="div2_galerija2"><img src="Test\image1.jpg" alt="Image 1" class="popup-trigger"> </div>
+                    <div class="div3_galerija2"><img src="Test\image1.jpg" alt="Image 1" class="popup-trigger"> </div>
+                    <div class="div4_galerija2"><img src="Test\image1.jpg" alt="Image 1" class="popup-trigger"> </div>
+                </div>
+                <div class="parent_galerija">
+                    <div class="div1_galerija">
+                        <img src="Test\image1.jpg" alt="Image 1" class="popup-trigger">
+                    </div>
+                    <div class="div2_galerija">
+                        <img src="image2.jpg" alt="Image 2" class="popup-trigger">
+                    </div>
+                    <div class="div3_galerija">
+                        <img src="image3.jpg" alt="Image 3" class="popup-trigger">
+                    </div>
+                    <div class="div4_galerija">
+                        <img src="image4.jpg" alt="Image 4" class="popup-trigger">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="imagePopup" class="popup">
+        <img id="popupImage" src="" alt="Popup Image">
+    </div>
+
+
+
+
+    <script>
+        var tabButtons = document.querySelectorAll(".tabContainer .buttonContainer button");
+        var tabPanels = document.querySelectorAll(".tabContainer  .tabPanel");
+
+        function showPanel(panelIndex, colorCode) {
+            tabButtons.forEach(function (node) {
+                node.style.backgroundColor = "";
+                node.style.color = "";
+            });
+            tabButtons[panelIndex].style.backgroundColor = colorCode;
+            tabButtons[panelIndex].style.color = "red";
+            tabPanels.forEach(function (node) {
+                node.style.display = "none";
+            });
+            tabPanels[panelIndex].style.display = "block";
+            tabPanels[panelIndex].style.backgroundColor = colorCode;
+        }
+        showPanel(0, '#FFFFFF');
+
+
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const images = document.querySelectorAll(".popup-trigger");
+            const imagePopup = document.getElementById("imagePopup");
+            const popupImage = document.getElementById("popupImage");
+            const paragraphs = document.querySelectorAll(".year-paragraph");
+
+
+            function openPopup(imageSrc) {
+                popupImage.src = imageSrc;
+                imagePopup.style.display = "flex";
+                setTimeout(() => {
+                    imagePopup.style.opacity = 1;
+                    popupImage.style.opacity = 1;
+                }, 10);
+            }
+
+
+            function closePopup() {
+                imagePopup.style.opacity = 0;
+                popupImage.style.opacity = 0;
+                setTimeout(() => {
+                    imagePopup.style.display = "none";
+                }, 300);
+            }
+
+
+            images.forEach((image) => {
+                image.addEventListener("click", () => {
+                    openPopup(image.src);
+                });
+            });
+
+
+            imagePopup.addEventListener("click", () => {
+                closePopup();
+            });
+
+            // Function to handle the paragraph clicks
+            paragraphs.forEach((paragraph) => {
+                paragraph.addEventListener("click", () => {
+                    // Remove "red" class from all paragraphs
+                    paragraphs.forEach((p) => {
+                        p.classList.remove("red");
+                    });
+                    // Add "red" class to the clicked paragraph
+                    paragraph.classList.add("red");
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Expandable Timeline</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class='nav-bar'>
+                <li class='logo'><a href='index.html'><img src="Slike/student-cuts-logo.svg" /></a></li>
+                <input type='checkbox' id='check' />
+                <span class="menu">
+                    <li><a href="raspored.html">Raspored</a></li>
+                    <li><a href="fotografsko_natjecanje.html">Fotografsko natjecanje</a></li>
+                    <li><a href="hall_of_fame.html">Hall of fame</a></li>
+                    <li><a href="galerija.html">Galerija</a></li>
+                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                </span>
+                <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="timeline-naslov">
+        <p class="timeline-datum">
+            Utorak, 13. lipnja 2023.
+        </p>
+        <p class="timeline-lokacija">
+            Kino Tuškanac
+        </p>
+    </div>
+
+    <div class="timeline">
+        <div class="event-container1">
+            <div class="event-time">12:00 - 13:00</div>
+            <div class="event-marker"></div>
+            <div class="event-content">
+                <h3>Svečano otvorenje</h3>
+            </div>
+        </div>
+        <div class="vertical-line"></div>
+        <div class="event-container" data-toggle="event-2">
+            <div class="event-time">13:00 - 13:40</div>
+            <div class="event-marker"></div>
+            <div class="event-content">
+                <h3>Prvi blok</h3>
+                <div class="expand-icon">▼</div>
+            </div>
+        </div>
+        <div class="event-details" id="event-2">
+            <ul>
+                <li class="kategorija">JINGLE</li>
+                <li class="naslov">StudentCuts</li>
+                <li class="student">Bruno Novak</li>
+            </ul>
+            <ul>
+                <li class="kategorija">SHOW&TELL</li>
+                <li class="naslov">Tko želi biti milijunaš?</li>
+                <li class="student">Botovi</li>
+            </ul>
+            <ul>
+                <li class="kategorija">SHOW&TELL</li>
+                <li class="naslov">Tko želi biti milijunaš?</li>
+                <li class="student">Botovi</li>
+            </ul>
+            <ul>
+                <li class="kategorija">SHOW&TELL</li>
+                <li class="naslov">Tko želi biti milijunaš?</li>
+                <li class="student">Botovi</li>
+            </ul>
+            <ul>
+                <li class="kategorija">SHOW&TELL</li>
+                <li class="naslov">Tko želi biti milijunaš?</li>
+                <li class="student">Botovi</li>
+            </ul>
+            <ul>
+                <li class="kategorija">SHOW&TELL</li>
+                <li class="naslov">Tko želi biti milijunaš?</li>
+                <li class="student">Botovi</li>
+            </ul>
+        </div>
+
+        <div class="event-container" data-toggle="event-3">
+            <div class="event-time">14:00 - 14:40</div>
+            <div class="event-marker"></div>
+            <div class="event-content">
+                <h3>Drugi blok</h3>
+                <div class="expand-icon">▼</div>
+            </div>
+        </div>
+        <div class="event-details" id="event-3">
+            <ul>
+                <li class="kategorija">JINGLE</li>
+                <li class="naslov">StudentCuts</li>
+                <li class="student">Bruno Novak</li>
+            </ul>
+        </div>
+        <div class="event-container" data-toggle="event-4">
+            <div class="event-time">15:00 - 15:40</div>
+            <div class="event-marker"></div>
+            <div class="event-content">
+                <h3>Treći blok</h3>
+                <div class="expand-icon">▼</div>
+            </div>
+        </div>
+        <div class="event-details" id="event-4">
+            <ul>
+                <li class="kategorija">JINGLE</li>
+                <li class="naslov">StudentCuts</li>
+                <li class="student">Bruno Novak</li>
+            </ul>
+        </div>
+        <div class="event-container" data-toggle="event-5">
+            <div class="event-time">16:00 - 16:40</div>
+            <div class="event-marker"></div>
+            <div class="event-content">
+                <h3>Četvrti blok</h3>
+                <div class="expand-icon">▼</div>
+            </div>
+        </div>
+        <div class="event-details" id="event-5">
+            <ul>
+                <li class="kategorija">JINGLE</li>
+                <li class="naslov">StudentCuts</li>
+                <li class="student">Bruno Novak</li>
+            </ul>
+        </div>
+        <!-- Add more events here -->
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const eventContainers = document.querySelectorAll('.event-container');
+
+            eventContainers.forEach(eventContainer => {
+                const toggleId = eventContainer.getAttribute('data-toggle');
+                const eventDetails = document.getElementById(toggleId);
+                const expandIcon = eventContainer.querySelector('.expand-icon');
+
+                eventContainer.addEventListener('click', () => {
+                    if (eventDetails) {
+                        if (eventDetails.style.maxHeight === '0px' || eventDetails.style.maxHeight === '') {
+                            eventDetails.style.maxHeight = eventDetails.scrollHeight + 'px';
+                            eventDetails.style.opacity = '1';
+                            expandIcon.textContent = '▲';
+                            eventContainer.classList.add('expanded');
+                        } else {
+                            eventDetails.style.maxHeight = '0';
+                            eventDetails.style.opacity = '0';
+                            expandIcon.textContent = '▼';
+                            eventContainer.classList.remove('expanded');
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

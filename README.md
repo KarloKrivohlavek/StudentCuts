@@ -8,12 +8,7 @@
     <br/>
     <a href="https://github.com/KarloKrivohlavek/StudentCuts"><strong>Explore the docs »</strong></a>
     <br/>
-    <br/>
-    <a href="https://github.com/KarloKrivohlavek/StudentCuts">View Demo</a>
-    .
-    <a href="https://github.com/KarloKrivohlavek/StudentCuts/issues">Report Bug</a>
-    .
-    <a href="https://github.com/KarloKrivohlavek/StudentCuts/issues">Request Feature</a>
+  
   </p>
 </p>
 
@@ -23,8 +18,6 @@
 
 * [About the Project](#about-the-project)
 * [Built With](#built-with)
-* [Usage](#usage)
-* [License](#license)
 * [Authors](#authors)
 * [Acknowledgements](#acknowledgements)
 

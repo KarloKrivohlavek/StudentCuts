@@ -79,7 +79,7 @@ Features
 
 ## Authors
 
-* **Karlo Krivohlavek** - *Web and Mobile Developer* - [Karlo Krivohlavek](https://github.com/KarloKrivohlavek) - **
+* **Karlo Krivohlavek** - *Web and Mobile Developer* - [Karlo Krivohlavek](https://github.com/KarloKrivohlavek)
 
 ## Acknowledgements
 

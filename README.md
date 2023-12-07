@@ -60,6 +60,7 @@ Features
 
 - **JavaScript:**
   - Core programming language for implementing interactive features and functionality.
+![firefox_YNTUwI6GkQ](https://github.com/KarloKrivohlavek/StudentCuts/assets/131522524/4301fde9-1466-4e72-a8db-74168b0b4a74)
 
 - **HTML:**
   - Standard markup language for structuring the content of web pages.
@@ -73,6 +74,7 @@ Features
 - **Three.js:**
   - A cross-browser JavaScript library and application programming interface (API) used to create and display animated 3D computer graphics in a web browser.
 
+![firefox_SpmDmW6mfF](https://github.com/KarloKrivohlavek/StudentCuts/assets/131522524/20cbb04f-7d50-432d-8883-3a9e40c9f9ef)
 
 
 ## Authors

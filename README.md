@@ -23,8 +23,8 @@
 
 ## About The Project
 
-![Screen Shot](![firefox_0dRLkZR2X0](https://github.com/KarloKrivohlavek/StudentCuts/assets/131522524/c81d37bc-fb90-4531-bde9-0fc5d30edfcc)
-)
+![firefox_0dRLkZR2X0](https://github.com/KarloKrivohlavek/StudentCuts/assets/131522524/cc404a03-e3e8-4547-bf31-2f0fd8d8428f)
+
 
 Welcome to the official repository for the StudentCuts Film Festival website. This repository aims to provide a platform for students to easily access information about the festival and enhance their participation experience.
 

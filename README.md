@@ -81,19 +81,6 @@ Features
   - A cross-browser JavaScript library and application programming interface (API) used to create and display animated 3D computer graphics in a web browser.
 
 
-## Usage
-
-space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-### Creating A Pull Request
-
-
-
-## License
-
-Distributed under the MIT License. See [LICENSE](https://github.com/KarloKrivohlavek/StudentCuts/blob/main/LICENSE.md) for more information.
 
 ## Authors
 
